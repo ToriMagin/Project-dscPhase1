@@ -1,5 +1,4 @@
-![example](images/director_shot.jpeg)  ![genresgraph](Images/Genres_Top_n_Bottom.png)
-
+![example](Images/Boxoffice.png)  
 
 # Movie Analysis Project
 
