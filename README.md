@@ -1,4 +1,4 @@
-![example](Images/Boxoffice.png)  
+![boxoffice](Images/Boxoffice.png)
 
 # Movie Analysis Project
 
