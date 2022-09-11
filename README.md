@@ -1,4 +1,4 @@
-![example](images/director_shot.jpeg)  ![genresgraph](images/Genres_Top_n_Bottom.png)
+![example](images/director_shot.jpeg)  ![genresgraph](Images/Genres_Top_n_Bottom.png)
 
 
 # Movie Analysis Project
@@ -19,13 +19,26 @@ The Box Office Mojo data details the domestic (US) and foreign gross each movie 
 
 Only movie data from 2015 to 2022 was analysed to focus on the most recent and relevant trends. The average ratings, genres, and runtimes were compared against the movies' total gross (combined domestic(US) and foreign gross) to identify elements of success.
 
-##Evaluation
-Evaluate how well your work solves the stated business problem.
+## Results 
+### Average Ratings 
+There is a very weak positive relationship between average ratings and total gross (r=0.135). 
+However, the charts (below) show the relationship does strengthen at the top end of movie grosses (Top 100 r = 0.329).  
+Meaning, the higher the average rating, gross will likely increase by a small degree also.
 
-Overall, the above data modelling does provide some useful insights, such as what genre of films to focus on and avoid. However, there's still many unknow factors for further analysis. For example, the movie production costs are unknown, so we cannot examine net profit or loss.
+![Ratingsgraph](Images/RatingsGrossScatter.png)
 
-With more time, I would also run the same analysis over larger samples, for exmaple Top and Bottom 300 (which is approx. 20% of BNR_2). This may provide better generalisation of results.
+### Runtime 
+There is a weak positive relationship between runtime and total gross (r=0.137). 
+However, like average ratings, the relationship becomes stronger for higher grossing movies. 
+Top 100 Movies are, on average, 18% longer than Bottom 100 Movies. 
 
+### Genres 
+The composition of genres in the Top and Bottom 100 Movies is clearly very different.
+Adventure and action are very popular in the Top 100 Movies. However, Drama and documentary, the most popular genres in Bottom 100, only rank 6th and 10th  respectively, in the Top 100. 
+Comedy came in as the 3rd most common for both Top and Bottom 100, indicating other deeper factors need to be examined to establish what makes a successful comedy movie. 
+
+ ![genresgraph](Images/Genres_Top_n_Bottom.png)
+ 
 ## Recommendations
 Microsoft should not try to make content decisions based on potential movie ratings as:
 
